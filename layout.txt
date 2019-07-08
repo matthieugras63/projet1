@@ -1,0 +1,5 @@
+Pour mener à bien ce projet, je vais procéder de telle manière: 
+
+1- Création du squelette HTML (Insertion des listes, images, et textes)
+
+2 - Mise en forme avec le CSS
