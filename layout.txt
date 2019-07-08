@@ -8,4 +8,5 @@ Pour mener à bien ce projet, je vais procéder de telle manière:
 Lundi 08 / 07 / 2019
 
 Mise en place du squelette de la page (textes, images et hiérarchisation des blocs) et insertions de quelques balises 
-dans le texte pour faciliter le CSS (balises span notamment)
+dans le texte pour faciliter le CSS (balises span notamment). 
+Vérification de l'indentation du corps HTML
