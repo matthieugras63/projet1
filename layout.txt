@@ -3,3 +3,9 @@ Pour mener à bien ce projet, je vais procéder de telle manière:
 1- Création du squelette HTML (Insertion des listes, images, et textes)
 
 2 - Mise en forme avec le CSS
+
+
+Lundi 08 / 07 / 2019
+
+Mise en place du squelette de la page (textes, images et hiérarchisation des blocs) et insertions de quelques balises 
+dans le texte pour faciliter le CSS (balises span notamment)
