@@ -2,38 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Document</title>
 </head>
 <body>
   <header>
-    <img src="images/medium.svg" alt="medium">
-    <ul>
-      <li>Sign in</li>
-      <li>Get started</li>
-    </ul>
-    <img src="images/onezero.png" alt="onezero">
-    <ul>
-      <li>CONSUMER TECH</li>
-      <li>DIGITAL LIFE</li>
-      <li>INUDUSTRY</li>
-      <li>SCIENCE & MEDICINE</li>
-      <li>ABOUT</li>
-    </ul>
+    <div class="first-row">
+      <img src="images/medium.svg" alt="medium" id="header-medium">
+      <ul>
+        <li>Sign in</li>
+        <li>Get started</li>
+      </ul>
+    </div>
+    <div class="second-row">
+      <img src="images/onezero.png" alt="onezero" id="header-onezero">
+      <ul>
+        <li>CONSUMER TECH</li>
+        <li>DIGITAL LIFE</li>
+        <li>INUDUSTRY</li>
+        <li>SCIENCE & MEDICINE</li>
+        <li>ABOUT</li>
+      </ul>
+    </div>
   </header>
   <main>
     <section>
-      <h1>How ‘Digital Nomads’ Game the System to Work in Paradise</h1>
-      <p>Visa scams and tax evasion are common as locals struggle with a low minimum wage</p>
-      <img src="images/harry.jpeg" alt="harry">
-      <p>Harry guiness</p>
-      <p>Jul 2 - 6 min read</p>
-      <p>Follow</p>
-    </section>
-    <figure>
-      <img src="images/paradise.jpeg" alt="paradise">
-      <figcaption>Credit: Made Widhana/Getty Images</figcaption>
-    </figure>
-    <section>
+      <div class="top-section">
+        <h1>How ‘Digital Nomads’ Game the System to Work in Paradise</h1>
+        <h2>Visa scams and tax evasion are common as locals struggle with a low minimum wage</h2>
+        <div id="under-title">
+          <img src="images/harry.jpeg" alt="harry" class="rounded-image">
+          <div id="under-title-text">
+            <p>Harry Guinness <span class="button-follow">Follow</span></p>
+            <p>Jul 2 - 6 min read</p>
+          </div>
+        </div>
+      </div>
+      <figure>
+        <img src="images/paradise.jpeg" alt="paradise" id="central-image">
+        <figcaption>Credit: Made Widhana/Getty Images</figcaption>
+      </figure>
       <aside>
         <h3>One Zero</h3>
         <p>The frontlines of the future. A new Medium publication about tech and science</p>
@@ -101,47 +109,48 @@
           <li>Bali</li>
         </ul>
       </article>
-      <section>
-        <article>
-          <img src="images/harry.png" alt="harry">
-          <p>Harry Guiness</p>
-          <p>Medium member since Apr 2019</p>
-          <p>Tesco Value <br>
-            @DanBilzerian.<br>
-          www.HarryGuiness.com</p>
-          <p>Follow</p>
-        </article>
-        <article>
-          <img src="images/oz.png" alt="oz">
-          <h3>OneZero</h3>
-          <p>The frontlines of the future. A new Medium pulication about tech and science.</p>
-          <p>Follow</p>
-        </article>
-      </section>
     </section>
-  </main>
-  <footer>
-    <div>
-      <figure>
-        <img src="images/amazon.jpeg" alt="Amazon">
-        <figcaption>More from OneZero</figcaption>
-      </figure>
-      <h3>Amazon Is Watching</h3>
-    </div>
-    <div>
-      <figure>
-        <img src="images/malaysia.jpeg" alt="malayisa">
-        <figcaption>More from OneZero</figcaption>
-      </figure>
-      <h3>The Mystery Behind the Missing Malaysia Airlines Flight Isn't Solv...</h3>
-    </div>
-    <div>
-      <figure>
-        <img src="images/libra.jpeg" alt="libra">
-        <figcaption>More from OneZero</figcaption>
-      </figure>
-      <h3>Thoughts on Libra "Blockchain"</h3>
-    </div>
-  </footer>
+    <section>
+      <article>
+        <img src="images/harry.jpeg" alt="harry">
+        <p>Harry Guiness</p>
+        <p>Medium member since Apr 2019</p>
+        <p>Tesco Value <br>
+          @DanBilzerian.<br>
+        www.HarryGuiness.com</p>
+        <p>Follow</p>
+      </article>
+      <article>
+        <img src="images/oz.png" alt="oz">
+        <h3>OneZero</h3>
+        <p>The frontlines of the future. A new Medium pulication about tech and science.</p>
+        <p>Follow</p>
+      </article>
+    </section>
+  </section>
+</main>
+<footer>
+  <div>
+    <figure>
+      <img src="images/amazon.jpeg" alt="Amazon">
+      <figcaption>More from OneZero</figcaption>
+    </figure>
+    <h3>Amazon Is Watching</h3>
+  </div>
+  <div>
+    <figure>
+      <img src="images/malaysia.jpeg" alt="malayisa">
+      <figcaption>More from OneZero</figcaption>
+    </figure>
+    <h3>The Mystery Behind the Missing Malaysia Airlines Flight Isn't Solv...</h3>
+  </div>
+  <div>
+    <figure>
+      <img src="images/libra.jpeg" alt="libra">
+      <figcaption>More from OneZero</figcaption>
+    </figure>
+    <h3>Thoughts on Libra "Blockchain"</h3>
+  </div>
+</footer>
 </body>
 </html>
