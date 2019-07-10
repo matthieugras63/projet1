@@ -13,8 +13,6 @@ body{
 main{
   padding-right: 200px;
   padding-left: 200px;
-  border:solid;
-  border-color: black;
 }
 
 #header-medium{
@@ -44,10 +42,11 @@ li{
   padding-left: 200px;
   justify-content: flex-start;
   align-items: center;
+  box-shadow: 0 5px 5px -5px grey;
 }
 
-.second-row ul li, .first-row ul li{
-  padding-right: 20px;
+.second-row>ul>li, .first-row>ul>li{
+  padding-right: 40px;
 }
 
 #header-onezero{
@@ -55,7 +54,7 @@ li{
   height: 40px;
 }
 
-.top-section{
+.central-column{
   margin-right: 280px;
   margin-left: 280px;
   padding-right: 20px;
@@ -63,14 +62,14 @@ li{
   padding-top: 0;
 }
 
-.top-section h1{
+.central-column h1{
   font-size: 40px;
   line-height: 150%;
   text-align: justify;
   margin: 0;
 }
 
-.top-section h2{
+.central-column h2{
   font-size: 30px;
   margin-top: 0;
 }
@@ -123,3 +122,113 @@ figure{
 figcaption{
   text-align: center;
 }
+
+.underline{
+  text-decoration: underline;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.italic{
+  font-style: italic;
+}
+
+article{
+  font-size: 25px;
+}
+
+#big-y{
+  color: white;
+  background: black;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-radius: 100px;
+  font-size: 60px;
+  float: left;
+  margin-right: 15px;
+}
+
+blockquote{
+  font-size: 35px;
+}
+
+.color-purple{
+  color: #9079E9;
+}
+.purple-border{
+  border:1px solid;
+  border-color: #9079E9;
+  padding:10px;
+  border-radius: 10px;
+}
+
+.little-purple-border{
+  border: 1px solid;
+  border-color: #9079E9;
+  padding-left:10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 7px;
+}
+
+#first-paragraph{
+  padding-top: 0;
+  margin-top: 50px;
+}
+
+#left-aside{
+  position: absolute;
+  left: 205px;
+  width: 175px;
+}
+
+
+#first-aside{
+  padding-bottom: 15px;
+  box-shadow: 0 1px 1px -1px grey;
+  font-size: 20px;
+}
+
+#second-aside{
+  padding-top: 15px;
+}
+
+#last-list{
+  margin-left: -40px;
+}
+
+#last-list li{
+  display:inline-block;
+  background: #0000000d;
+  padding-right: 30px;
+}
+
+#row-before-footer{
+  display: flex;
+  flex-direction: row;
+}
+
+#oz-resize{
+  width: 50px;
+  height: 50px;
+}
+
+.duo-article{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+/* Couleur du footer: #00000005;*/
