@@ -11,7 +11,11 @@ Mise en place du squelette de la page (textes, images et hiérarchisation des bl
 dans le texte pour faciliter le CSS (balises span notamment). 
 Vérification de l'indentation du corps HTML
 
-Mardi 09/07/2019
+Mardi 09 / 07 / 2019
 
 Mise en place du CSS. Mise en page jusqu'à l'image, uniquement sur les positionnements pour le moment
+
+Mercredi 10 / 07 / 2019
+
+Modifications balisage html / poursuite du CSS
 
