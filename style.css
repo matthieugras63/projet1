@@ -13,6 +13,7 @@ body{
 main{
   padding-right: 200px;
   padding-left: 200px;
+  padding-top: 40px;
 }
 
 #header-medium{
@@ -201,15 +202,16 @@ blockquote{
 
 #last-list{
   margin-left: -40px;
+  display: inline-block;
 }
 
 #last-list li{
-  display:inline-block;
   background: #0000000d;
-  padding-right: 30px;
+  text-align: center;
+  margin-right: 40px;
 }
 
-#row-before-footer{
+#row-under-footer{
   display: flex;
   flex-direction: row;
 }
