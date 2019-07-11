@@ -16,6 +16,14 @@ main{
   padding-top: 40px;
 }
 
+.georgia{
+  font-family: Georgia, sans-serif;
+}
+
+.encore-sans{
+  font-family: "Encore sans";
+}
+
 #header-medium{
   height: 38px;
   width: 38px;
@@ -77,8 +85,8 @@ li{
 
 .rounded-image{
   border-radius:50px;
-  height: 50px;
-  width: 50px;
+  height: 75px;
+  width: 75px;
 }
 
 #under-title{
@@ -120,8 +128,9 @@ figure{
   margin-right: 0px;
   margin-top: 50px;
 }
-figcaption{
+#big-image>figcaption{
   text-align: center;
+  padding-top: 10px;
 }
 
 .underline{
@@ -208,29 +217,94 @@ blockquote{
 #last-list li{
   background: #0000000d;
   text-align: center;
-  margin-right: 40px;
+  font-size: 15px;
+  margin-right: 10px;
+  padding: 10px;
 }
 
 #row-under-footer{
   display: flex;
   flex-direction: row;
+  padding-top: 100px;
+  border-top: 1px solid #0000000d;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 #oz-resize{
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
 }
 
 .duo-article{
-  flex: 1;
   display: flex;
   flex-direction: row;
+  flex-basis: 400px;
 }
 
+.article-2{
+  padding-left: 20px;
+}
 
+.duo-article-text{
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 
+.duo-article-text p{
+  margin-top: -20px;
+  padding-bottom: 10px;
+  line-height: 150%;
+}
 
+.duo-article div{
+  margin-top: -24px;
+  padding-left: 10px;
 
+}
 
+#last-row{
+  background: #00000005;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 200px;
+}
 
-/* Couleur du footer: #00000005;*/
+.img-footer-resize{
+  width: 400px;
+  height: 120px;
+  margin-top: -50px;
+}
+
+#last-row figcaption{
+  text-align: left;
+  padding-top: 10px;
+}
+
+.footer-box{
+  box-shadow: 1px 1px 1px -1px grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 70px;
+}
+
+.footer-box h3{
+  margin-top: -10px;
+}
+
+#row-under-footer p{
+  font-size: 15px;
+}
+
+.follow-bottom{
+  padding-top: 30px;
+}
+
+.text-grey{
+  color: #0000008a;
+}
